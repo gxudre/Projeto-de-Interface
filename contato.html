@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato Bikcraft</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <img class="bikecraft_logo" src="./img/bikcraft.svg" alt="">
+
+  <div class="paginas">
+    <a name="inicio" href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="./Produtos.html">Produtos</a>
+    <a href="Lojas.html">Lojas</a>
+  </div>
+
+  <h2 class="vantagens_bik">Contato</h2>
+
+  <div class="formulario">
+    <form method="post">
+      <ul>
+        <li>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" required name="nome">
+        </li>
+        <li>
+          <label for="data">data de nascimento:</label>
+          <input type="date" id="name" name="data_de_nascimento">
+        </li>
+        <li>
+          <label for="email">e-mail:</label>
+          <input type="email" id="mail" required name="email">
+        </li>
+        <li>
+          <label for="tel">Telefone:</label>
+          <input type="tel" id="telefone" name="Telefone"">
+        </li>
+        <li>
+          <label for=" msg">Mensagem:</label>
+          <textarea id="msg" required name="user_mensagem"></textarea>
+        </li>
+        <li>
+          <button class="enviar_form" id="botao" type="submit"
+            onclick="alert('Preencha os Campos Obrigatórios')">Enviar</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+
+  <div class="rodape">
+    <p>bikcraft. Alguns Direitos Reservados. </p>
+  </div>
+</body>
+
+</html>

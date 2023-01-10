@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #f7f7f7;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+@font-face {
+  font-family: bebas;
+  src: url(./Tipografia/bebasNeue.ttf);
+}
+
+.formulario {
+  font-family: bebas;
+  background: white;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 12rem;
+}
+
+ul li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+
+}
+
+.enviar_form {
+  font-size: 15px;
+  border: #f7f7f7;
+  background: #e21;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.enviar_form:hover {
+  background: darkred;
+  transition: .3s;
+}
+
+.paginas {
+  font-family: bebas;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.paginas a {
+  background: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+.paginas a:hover {
+  border: 2px solid #e21;
+  transition: .3s;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1000px;
+}
+
+.introducao {
+  background: white;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+  line-height: 1.5;
+}
+
+.ver_mais {
+  display: grid;
+  background: #e21;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.ver_mais:hover {
+  background: darkred;
+  transition: .3s;
+}
+
+.vantagens_bik {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, .2);
+  text-align: right;
+  padding: 25px;
+  align-self: center;
+  background-image: url(./img/onda.svg);
+}
+
+.vantagem {
+  background: white;
+  padding: 40px;
+}
+
+.vantagem_item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagem_item p {
+  grid-column: 2;
+}
+
+.vantagem_item:hover {
+  border-left: 4px solid #e21;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.tabela {
+  text-align: center;
+  background-color: #e21;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.dafusao {
+  text-transform: capitalize;
+}
+
+.sobreintrodução {
+  background: white;
+  padding: 60px;
+  text-align: justify;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+  line-height: 1.3;
+}
+
+.video_e_audio {
+  justify-items: center;
+  display: grid;
+}
+
+audio {
+  margin-top: 10px;
+}
+
+.video {
+  margin: 0px;
+  padding: 0px;
+  width: 98vw;
+}
+
+
+
+.rodape {
+  background: white;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
